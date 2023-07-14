@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [kavi]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="kavi1(failed)">
+    <groups>
+      <run>
+        <include name="kavi"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="InstagramTest.Test">
+        <methods>
+          <include name="InvalidusernamePassword"/>
+          <include name="logincredentials"/>
+          <include name="quit"/>
+          <include name="openloginpage"/>
+        </methods>
+      </class> <!-- InstagramTest.Test -->
+    </classes>
+  </test> <!-- kavi1(failed) -->
+</suite> <!-- Failed suite [kavi] -->
